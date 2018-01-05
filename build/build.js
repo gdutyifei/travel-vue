@@ -46,7 +46,7 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
         cp('-R', assetsPath, pathsrc)
       } else if(tmp[0] == 'view') {
         pathsrc = path.join(config.build.assetsRoot, pathsrc)
-        cp('-R', assetsPath, pathsrc)
+        // cp('-R', assetsPath, pathsrc)
       }
       //console.log(pathsrc)
       //console.log(pathname+'-----------'+entry);
