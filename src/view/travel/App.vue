@@ -1,0 +1,70 @@
+/**
+* Created by luoyifei on 2017/12/31.
+*/
+<template>
+  <div class="app">
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
+    <!-- 底部tab开始 -->
+    <footer class="footer">
+      <div class="module">
+        <img src="./assets/image/index.png"/>
+        <p>首页</p>
+      </div>
+      <div class="module">
+        <img src="./assets/image/discovery.png"/>
+        <p>发现</p>
+      </div>
+      <div class="module">
+        <img src="./assets/image/stroke.png"/>
+        <p>行程</p>
+      </div>
+      <div class="module">
+        <img src="./assets/image/mine.png"/>
+        <p>我的</p>
+      </div>
+    </footer>
+    <!-- 底部tab结束 -->
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "travel"
+  }
+</script>
+
+<style scoped>
+  .footer {
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    display: table;
+    border-top: 0.0125rem solid #888888;
+  }
+  .module {
+    height: 2rem;
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .module img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+</style>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* div 点击时取消点击效果 */
+  div{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+  }
+</style>
