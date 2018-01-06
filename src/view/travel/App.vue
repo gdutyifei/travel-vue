@@ -9,19 +9,19 @@
     <!-- 底部tab开始 -->
     <footer class="footer">
       <div class="module">
-        <img src="./assets/image/index.png"/>
+        <img src="./assets/img/index.png"/>
         <p>首页</p>
       </div>
       <div class="module">
-        <img src="./assets/image/discovery.png"/>
+        <img src="./assets/img/discovery.png"/>
         <p>发现</p>
       </div>
       <div class="module">
-        <img src="./assets/image/stroke.png"/>
+        <img src="./assets/img/stroke.png"/>
         <p>行程</p>
       </div>
       <div class="module">
-        <img src="./assets/image/mine.png"/>
+        <img src="./assets/img/mine.png"/>
         <p>我的</p>
       </div>
     </footer>

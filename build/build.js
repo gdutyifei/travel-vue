@@ -48,9 +48,6 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
         pathsrc = path.join(config.build.assetsRoot, pathsrc)
         // cp('-R', assetsPath, pathsrc)
       }
-      //console.log(pathsrc)
-      //console.log(pathname+'-----------'+entry);
-
     });
     console.log(chalk.cyan('  Build complete.\n'))
     console.log(chalk.yellow(
