@@ -53,9 +53,9 @@
           }
         },
         images: [
-          './assets/image/1.jpg',
-          './assets/image/2.jpg',
-          './assets/image/3.jpg'
+          './assets/img/1.jpg',
+          './assets/img/2.jpg',
+          './assets/img/3.jpg'
         ]
       }
     },
