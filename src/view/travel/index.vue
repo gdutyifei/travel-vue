@@ -1,5 +1,10 @@
 <template>
   <div class="index">
+    <nav>
+      <div class="nav-search">
+        <input type="search" class="id-search" results="10" placeholder="请输入城市名" autosave="getHardboiled" />
+      </div>
+    </nav>
     <swiper :options="swiperOption" ref="mySwiper">
       <!-- 这部分放你要渲染的那些内容 -->
       <swiper-slide v-for="item in images">
@@ -74,6 +79,36 @@
 </script>
 
 <style scoped>
+  .index {
+    position: relative;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .nav-search {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+    color: #333333;
+  }
+  .nav-search input {
+    width: 92%;
+    height: 100%;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    border: 0.0125rem solid #DEDFE0;
+    outline: none;
+    resize: none;
+    box-shadow: none;
+    opacity: 0.45;
+    background-color: #FFF;
+    padding: 0 1rem;
+  }
   .swiper-img {
     width: 100%;
   }
