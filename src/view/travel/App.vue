@@ -6,7 +6,6 @@
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
-    <!-- 底部tab开始 -->
     <footer class="footer">
       <div class="module">
         <img src="./assets/img/index.png"/>
@@ -66,5 +65,18 @@
   /* div 点击时取消点击效果 */
   div{
     -webkit-tap-highlight-color:rgba(0,0,0,0);
+  }
+
+  /* 手机 */
+  @media screen and (min-width: 320px) and (max-width: 650px) {
+
+  }
+  /* pad */
+  @media screen and (min-width: 650px) and (max-width: 980px) {
+
+  }
+  /* pc */
+  @media screen and (min-width: 980px) and (max-width: 1240px) {
+
   }
 </style>
